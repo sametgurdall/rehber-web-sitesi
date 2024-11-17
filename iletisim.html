@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Rehber Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkinda.html">Hakkında</a>
+        <a href="servisler.html">Servisler</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+
+    <h1>İletişim</h1>
+    <p>Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
+    <ul>
+        <li>Adres: İstanbul, Türkiye</li>
+        <li>Telefon: <a href="tel:0 (123) 456 78 90">0 (123) 456 78 90</a></li>
+        <li>E-posta: <a href="mailto:info@rehberweb.com">info@rehberweb.com</a></li>
+    </ul>
+
+    <h2>Bize Ulaşın</h2>
+    <form>
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
